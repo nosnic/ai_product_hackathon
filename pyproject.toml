@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ai-product-hackathon"
+version = "0.1.0"
+description = ""
+authors = ["nosnic <nosilkin.n.d@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+fastapi = "^0.111.0"
+pandas = "^2.2.2"
+langchain = "^0.2.2"
+tqdm = "^4.66.4"
+chromadb = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
